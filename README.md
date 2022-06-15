@@ -74,7 +74,7 @@ Use the component on your own app components
 <vue3-simple-typeahead
 	id="typeahead_id"
 	placeholder="Start writing..."
-	:items="['One','Two','Three',...]"
+	:items="['One','Two','Three']"
 	:minInputLength="1"
 	:itemProjection="itemProjectionFunction"
 	@selectItem="selectItemEventHandler"
@@ -91,7 +91,7 @@ With custom slots template
 <vue3-simple-typeahead
 	id="typeahead_id"
 	placeholder="Start writing..."
-	:items="['One','Two','Three',...]"
+	:items="['One','Two','Three']"
 	:minInputLength="1"
 	:itemProjection="itemProjectionFunction"
 	@selectItem="selectItemEventHandler"
